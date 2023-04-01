@@ -1,0 +1,93 @@
+// Boostrap
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Utilities
+
+@import "../scss/utilities/variables";
+@import "../scss/utilities/tipografia";
+
+// Views
+
+@import "../scss/views/servicios";
+
+/* Encabezado */
+
+.container-fluid {
+    // font-family: "iceland";
+    text-align: center;
+
+    /* Título */
+
+    .text-center-titulo {
+        text-align: center;
+        background: #364552;
+        color: $light;
+        margin: 0;
+        // padding: 0;
+        // font-size: 40rem;
+        height: auto;
+    }
+
+    .display-1 {
+      font-size: 6rem;
+    }
+
+      /* Logo */
+
+      .text-center-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #364552;
+        padding: 5px;
+    }
+    
+
+    /* Menú principal */
+
+    .align-items-center {
+        font-size: 30px;
+        height: 20rem;
+    }
+
+    .btn-light {
+        background-color: $light;
+        text-align: center;
+        margin: auto;
+        // padding: 2rem;
+        width: 12rem;
+        border-radius: 1.5rem 0 1.5rem 0;
+        border-style: double;
+        border-width: 0.5rem;
+    }
+
+    .col-md-6 {
+        color: $dark; 
+    }
+
+   /* Imagen de fondo del menú principal */
+
+   .align-items-center {
+    background-image: url(../img/img_03.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+   }
+
+}
+
+// display: grid;
+// justify-content: space-around;
+// align-content: space-evenly;
+// grid-template-columns: 200px 200px;
+// grid-template-rows:200px 200px;
+// row-gap: 10px;
+// column-gap: 50px;
+// background-repeat: no-repeat;
+// background-image: url(../img/img_03.jpg);
+// background-position: center;
+// background-size: contain;
+// background-attachment: fixed;
+// padding: 0;
