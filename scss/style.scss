@@ -46,10 +46,10 @@
 
     /* Menú principal */
 
-    .align-items-center {
-        font-size: 30px;
-        height: 20rem;
-    }
+    // .align-items-center {
+    //     font-size: 30px;
+    //     height: 20rem;
+    // }
 
     .btn-light {
         background-color: $light;
@@ -62,19 +62,21 @@
         border-width: 0.5rem;
     }
 
-    .col-md-6 {
-        color: $dark; 
-    }
+    // .col-md-6 {
+    //     color: $dark; 
+    // }
 
    /* Imagen de fondo del menú principal */
 
-   .align-items-center {
-    background-image: url(../img/img_03.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-   }
+    .align-items-center {
+        font-size: 30px;
+        height: 20rem;
+        background-image: url(../img/img_03.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
 
 }
 

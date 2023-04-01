@@ -3,17 +3,56 @@
 /* Encabezado */
 
 .row {
-    // text-align: center;
-    font-family: "iceland";
-    background-color: #364552;
+
+    // background-color: #364552;
     height: 10rem;
-    text-color: $light;
+    // color: $secondary;
     text-align: left;
+    background-size: auto;
     // margin: 0 auto;
-    // padding: 1rem 6rem 1rem 5rem;
-    background-image: url(../../img/img_04.jpg);
+    // padding: 1rem 6rem 1rem 5rem; 
     // background-size: auto;
     // background-repeat: no-repeat;
+    font-family: "iceland";
+
+    .sub-servicios {
+        padding: 1rem 6rem 1rem 5rem;
+        font-size: 5rem;
+        background-image: url(../../img/img_04.jpg);
+        
+    }
+
+    .align-items-center-servicios {
+        font-family: "iceland";
+        border: 2px solid #000;
+        border-radius: 2rem 0 2rem 0;
+        background-color: #fff;
+        color:#000;
+        align-items: center;
+        margin: 0 0 10px 10px;
+        // .col-md-3 {
+        //     margin-bottom: 20px;
+        // }
+    }
+
+    .descripcion {
+        color: white;
+        background-image: url(../img/img_08.jpg);
+        border-radius: 2rem 0 0 2rem;
+        margin: 0 0 2rem 0;
+    }
+
+    .fs-1 {
+        margin-bottom: 20px;
+    }
+}
+
+.row-align-items-center {
+    font-family: "iceland";
+    font-size: 25px;
+    background-color: #364552;
+    height: 8rem;
+    color: white;
 }
 
 // .text-left {

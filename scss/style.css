@@ -12134,17 +12134,45 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-/* Tipo de letra principal */
 /* Colores */
 /* Botones del menú */
 /* Encabezado */
 .row {
-  font-family: "iceland";
-  background-color: #364552;
   height: 10rem;
-  text-color: #f8f9fa;
   text-align: left;
+  background-size: auto;
+  font-family: "iceland";
+}
+.row .sub-servicios {
+  padding: 1rem 6rem 1rem 5rem;
+  font-size: 5rem;
   background-image: url(../../img/img_04.jpg);
+}
+.row .align-items-center-servicios {
+  font-family: "iceland";
+  border: 2px solid #000;
+  border-radius: 2rem 0 2rem 0;
+  background-color: #fff;
+  color: #000;
+  align-items: center;
+  margin: 0 0 10px 10px;
+}
+.row .descripcion {
+  color: white;
+  background-image: url(../img/img_08.jpg);
+  border-radius: 2rem 0 0 2rem;
+  margin: 0 0 2rem 0;
+}
+.row .fs-1 {
+  margin-bottom: 20px;
+}
+
+.row-align-items-center {
+  font-family: "iceland";
+  font-size: 25px;
+  background-color: #364552;
+  height: 8rem;
+  color: white;
 }
 
 /* Encabezado */
@@ -12172,10 +12200,6 @@ textarea.form-control-lg {
   background: #364552;
   padding: 5px;
 }
-.container-fluid .align-items-center, .container-sm .align-items-center, .container-md .align-items-center, .container-lg .align-items-center, .container-xl .align-items-center, .container-xxl .align-items-center {
-  font-size: 30px;
-  height: 20rem;
-}
 .container-fluid .btn-light, .container-sm .btn-light, .container-md .btn-light, .container-lg .btn-light, .container-xl .btn-light, .container-xxl .btn-light {
   background-color: #f8f9fa;
   text-align: center;
@@ -12185,10 +12209,9 @@ textarea.form-control-lg {
   border-style: double;
   border-width: 0.5rem;
 }
-.container-fluid .col-md-6, .container-sm .col-md-6, .container-md .col-md-6, .container-lg .col-md-6, .container-xl .col-md-6, .container-xxl .col-md-6 {
-  color: #212529;
-}
 .container-fluid .align-items-center, .container-sm .align-items-center, .container-md .align-items-center, .container-lg .align-items-center, .container-xl .align-items-center, .container-xxl .align-items-center {
+  font-size: 30px;
+  height: 20rem;
   background-image: url(../img/img_03.jpg);
   background-repeat: no-repeat;
   background-position: center center;
