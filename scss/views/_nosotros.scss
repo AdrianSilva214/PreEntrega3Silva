@@ -2,6 +2,26 @@
 
 /* Encabezado */
 
+.text-left {
+    // background-color: #364552;
+    height: 10rem;
+    // color: $secondary;
+    text-align: left;
+    background-size: auto;
+    // margin: 0 auto;
+    // padding: 1rem 6rem 1rem 5rem; 
+    // background-size: auto;
+    // background-repeat: no-repeat;
+    font-family: "iceland";
+
+    .sub-servicios {
+        padding: 1rem 6rem 1rem 5rem;
+        font-size: 5rem;
+        background-image: url(../../img/img_04.jpg);
+        
+    }
+}
+
 // .row {
 
 //     // background-color: #364552;
@@ -24,8 +44,11 @@
 
 .col-md-8 {
     background-color: #0c595c;
+
+    .fs-5 {
+        color: white;
+    }
 }
 
-.fs-5 {
-    color: white;
-}
+
+
