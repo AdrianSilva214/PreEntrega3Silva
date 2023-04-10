@@ -18,13 +18,13 @@
 /* Encabezado */
 
 .container-fluid {
-    text-align: center;
+    // text-align: center;
 
     /* Título */
 
-    .text-center-titulo {
-        text-align: center;
-        // background: #364552;
+    .col {
+        text-align: left;
+        background: #364552;
         color: $light;
         margin: 0;
         // padding: 0;
