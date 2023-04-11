@@ -11879,7 +11879,6 @@ textarea.form-control-lg {
 /* Botones del menú */
 /* Encabezado */
 .row {
-  height: 10rem;
   text-align: left;
   background-size: auto;
   font-family: "iceland";
@@ -11903,6 +11902,10 @@ textarea.form-control-lg {
   background-image: url(../img/img_08.jpg);
   border-radius: 2rem 0 0 2rem;
   margin: 0 0 2rem 0;
+}
+
+.col-md-12 {
+  background-color: #364552;
 }
 
 /* Encabezado */
@@ -12010,32 +12013,28 @@ textarea.form-control-lg {
 
 /* Encabezado */
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-  text-align: center;
   /* Título */
   /* Logo */
   /* Menú principal */
   /* Imagen de fondo del menú principal */
 }
-.container-fluid .text-center-titulo, .container-sm .text-center-titulo, .container-md .text-center-titulo, .container-lg .text-center-titulo, .container-xl .text-center-titulo, .container-xxl .text-center-titulo {
+.container-fluid .col, .container-sm .col, .container-md .col, .container-lg .col, .container-xl .col, .container-xxl .col {
   text-align: center;
   background: #364552;
   color: #f8f9fa;
   margin: 0;
-  height: auto;
 }
 .container-fluid .display-1, .container-sm .display-1, .container-md .display-1, .container-lg .display-1, .container-xl .display-1, .container-xxl .display-1 {
-  font-size: 6rem;
+  font-size: auto;
 }
 .container-fluid .text-center-logo, .container-sm .text-center-logo, .container-md .text-center-logo, .container-lg .text-center-logo, .container-xl .text-center-logo, .container-xxl .text-center-logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #364552;
   padding: 5px;
 }
 .container-fluid .align-items-center, .container-sm .align-items-center, .container-md .align-items-center, .container-lg .align-items-center, .container-xl .align-items-center, .container-xxl .align-items-center {
   font-size: 30px;
-  height: 20rem;
 }
 .container-fluid .btn-light, .container-sm .btn-light, .container-md .btn-light, .container-lg .btn-light, .container-xl .btn-light, .container-xxl .btn-light {
   background-color: #f8f9fa;
@@ -12057,8 +12056,8 @@ textarea.form-control-lg {
 }
 
 .logo-favicon {
-  width: 4px;
-  height: 2px;
+  width: 30px;
+  height: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

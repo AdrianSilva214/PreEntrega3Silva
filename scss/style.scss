@@ -23,7 +23,7 @@
     /* Título */
 
     .col {
-        text-align: left;
+        text-align: center;
         background: #364552;
         color: $light;
         margin: 0;
@@ -33,7 +33,7 @@
     }
 
     .display-1 {
-        font-size: 6rem;
+        font-size: auto;
     }
 
       /* Logo */
@@ -50,7 +50,7 @@
 
     .align-items-center {
         font-size: 30px;
-        height: 10rem;
+        // height: 10rem;
     }
 
     .btn-light {
